@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    background-color: yellow;
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    background: beige;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+}
+
+h3 {
+    text-align: center;
+    color: darkblue;
+}
+
+p {
+    text-align: center;
+    
+}
+
+.time{
+    display: flex;
+}
+
+.time div {
+    margin: 5px;
+    position: relative;
+}
+
+.time span {
+    width: 110px;
+    height: 80px;
+    background: lightcyan;
+    opacity: 80%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 50px;
+}
+
+.time #shift {
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font: optional;
+    background-color: brown;
+}
+
+<!-- Equipment items-->
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#equipments {
+
+}
+#equipments .equipments{
+    flex-direction: column;
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+#equipments .equipment-title{
+    font-size: 4rem;
+    font-weight: 300;
+    color: black;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-align: center;
+}
+#equipments .equipment-top p{
+    font-size: 1.4rem;
+    margin-top: 5px;
+    line-height: 2.5rem;
+    font-weight: 300;
+    letter-spacing: .05rem;
+}
+
+#equipments .equipment-bottom{
+    display: flex-column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+#equipments .equipment-item{
+    flex-basis: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: lightblue; 
+    background-size: cover;
+    margin: 10px 5%;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+#equipments .equipment-item::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100;
+    width: 100;
+    background-image: linear-gradient(60deg,);
+    opacity: .8;
+    z-index: -1;
+}
+#equipments .service-bottom .icon{
+    height: 80px;
+    width: 80px;
+    margin-bottom: 20px;
+}
+#equipments .service-bottom .icon img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#equipments .equipment-item h3{
+font-size: 2rem;
+color: white;
+margin-bottom: 10px;
+text-transform: uppercase;
+}
+
+#equipments .equipment-item p {
+    color: white;
+    text-align: left;
+    font: 1.4rem;
+    line-height: 1.9re;
+}
+
+<!-- Equipment items-->
