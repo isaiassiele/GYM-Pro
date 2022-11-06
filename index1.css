@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header, footer {
+    position: absolute;
+    width: 100%;
+    background-color: aquamarine;
+    color: black;
+}
+
+header{
+    height: 10vh;
+}
+
+header h2 {
+    position: absolute;
+    margin-top: 20px;
+}
+footer{
+    height: 15vh;
+    bottom: 0;
+}
+
+footer h2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.nav{
+    position: absolute;
+    width: 100%
+} 
+
+.nav a {
+    position: relative;
+    left: 60%;
+    top: 20px;
+    color: black;
+    font-size: 25px;
+    margin-right: 20px;
+}
