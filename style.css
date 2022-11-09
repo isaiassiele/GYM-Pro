@@ -131,7 +131,8 @@ p {
 
 }
 #equipments .equipments{
-    flex-direction: column;
+    float: left;
+    flex-direction: colomn;
     text-align: center;
     max-width: 1500px;
     margin: 0 auto;
@@ -163,12 +164,14 @@ p {
 }
 
 #equipments .equipment-item{
+    float: left;
+    width:18%;
     flex-basis: 80%;
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    padding: 30px;
+    padding: 15px;
     border-radius: 10px;
     background-color: lightblue; 
     background-size: cover;
