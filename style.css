@@ -121,7 +121,7 @@ p {
 .container{
     min-height: 100vh;
     width: 100%;
-    display: flex;
+    display: float;
     align-items: center;
     justify-content: center;
 }
@@ -137,6 +137,7 @@ p {
     max-width: 1500px;
     margin: 0 auto;
     padding: 100px 0;
+    border: 2px solid red;
 }
 #equipments .equipment-title{
     font-size: 4rem;
@@ -146,6 +147,7 @@ p {
     text-transform: uppercase;
     letter-spacing: .2rem;
     text-align: center;
+    border: 2px solid red;
 }
 #equipments .equipment-top p{
     font-size: 1.4rem;
@@ -156,11 +158,12 @@ p {
 }
 
 #equipments .equipment-bottom{
-    display: flex-column;
+    display: normal;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 50px;
+    
+    border: 2px solid red;
+    
 }
 
 #equipments .equipment-item{
@@ -179,6 +182,7 @@ p {
     position: relative;
     z-index: 1;
     overflow: hidden;
+    border: 2px solid red;
 }
 
 #equipments .equipment-item::after{
@@ -226,6 +230,102 @@ html {
     padding: 0;
   }
 
+/* This Login Section */
+.center,.content
+{
+  position:relative;
+  
+}
+.click-me
+{
+  display:block;
+  width:160px;
+  height:50px;
+  background: inherit;
+  box-shadow: -3px -3px 7px #fffdfdcc,3px 3px 5px rgba(94, 104, 121, 0.342);
+  text-align:center;
+  font-size:22px;
+  line-height:50px;
+  cursor:pointer;
+}
+#click
+{
+  display:none;
+}
+.click-me:hover
+{
+  color: #0a5878;
+}
+.content
+{
+  visibility:hidden;  
+  width: 330px;
+  height: auto;
+  background: inherit;
+  padding: 30px 35px 40px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+#temp
+{
+  position:absolute;
+  right:10px;
+  top:20px;
+  font-size:25px;
+  background: #dde1e7;
+  padding: 3px;
+  padding-left: 11px;
+  padding-right: 11px;
+  border-radius: 50%;
+  cursor:pointer;
+}
+#click:checked~.content
+{
+  opacity:1;
+  visibility:visible;
+}
+.text
+{
+  font-size: 30px;
+  color: #000000;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 2px;
+}
+form
+{
+  margin-top: 40px;
+}
+label
+{
+  display: block;
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 500;
+}
+input
+{
+  display: block;
+  height: 43px;
+  width: 100%;
+  background-color: rgba(255,255,255,0.07);
+  border-radius: 3px;
+  border: none;
+
+  margin-top: 8px;
+
+  font-size: 14px;
+  font-weight: 300;
+}
+::placeholder
+{
+  color: #4b4e4d;
+  padding-left: 10px;
+}
+    
+
+
+/* This a Footer */
 .footer {
     background-color: aqua;
     position: relative;
