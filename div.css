@@ -1,0 +1,24 @@
+.container {
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+#a {
+    border: solid black;
+    height: 20%;
+}
+#b {
+    border: solid black;
+}
+#c {
+    border: solid black;
+}
+#d {
+    border: solid black;
+}
+#e {
+    border: solid black;
+}
+
+

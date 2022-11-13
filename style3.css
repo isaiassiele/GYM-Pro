@@ -207,6 +207,12 @@ p {
     width: 100%;
     object-fit: cover;
 }
+#equipments .equipment-container .equipment-bottom .equipment-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
 
 #equipments .equipment-item h3{
 font-size: 2rem;
