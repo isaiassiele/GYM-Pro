@@ -5,6 +5,7 @@
 }
 
 .nav-container{
+    position: fixed;
     width:100%;
     background-color: rgb(19, 60, 60);
     padding: 15px 10px;
@@ -100,12 +101,48 @@
     margin: 5px auto;
     transition: all 0.3s ease-out;
     background: white;
+    z-index: 1;
+}
+
+/* This is body */
+
+#product1{
+    text-align: center;
+}
+
+#product1 .pro-container{
+    position: inherit;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px;
+    width: 100%;
+    z-index: -1;
+}
+
+#product1 .pro{
+    width: 23%;
+    min-height: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+#product1 .pro img{
+    width: 100%;
+    border-radius: 20px;
 }
 
 /* This a Footer */
 .footer {
-    position:absolute;
-    bottom:0;
+    position:relative;
     background-color: aqua;
     width: 100%;
     justify-content: center;

@@ -160,7 +160,7 @@ p {
 #equipments .equipment-bottom{
     display: block;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 50px;
     border: 2px solid red;
